@@ -1,0 +1,12 @@
+{
+  "extends":"./tsconfig.json",
+  "compilerOptions":{
+    "target":"ES5",
+    "module": "ESNEXT",
+    "declaration": true,
+    "declarationDir": "./lib/types",
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./lib/esm"
+  }
+}
